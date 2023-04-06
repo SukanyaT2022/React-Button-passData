@@ -1,8 +1,8 @@
 import React from 'react'
 
-function App2(props) {
+function App2({childButton2Name}) {
     const clickAgain =()=>{
-        props.childButton2Name('over again')
+       childButton2Name('over again')
     }
   return (
     <div>
